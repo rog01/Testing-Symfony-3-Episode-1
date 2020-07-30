@@ -42,4 +42,5 @@ jobs:
           path: ~/phpunit
 
       - store_artifacts:
-          path: ~/phpunit
+          #path: ~/phpunit
+          path: ./vendor/phpunit/phpunit/phpunit
